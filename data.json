@@ -3,167 +3,48 @@
     {
       "month": "2026-03",
       "events": [
-        {
-          "title": "Deadline consegna slide progetto",
-          "date": "2026-03-04",
-          "category": "work"
-        },
-        {
-          "title": "Evento di lavoro (workshop in presenza)",
-          "date": "2026-03-06",
-          "category": "work"
-        },
-        {
-          "title": "Psicoterapeuta (pagamento ogni volta)",
-          "date": "2026-03-09",
-          "category": "health"
-        },
-        {
-          "title": "Allenamento PT",
-          "date": "2026-03-10",
-          "category": "personal"
-        },
-        {
-          "title": "Aperitivo con amici",
-          "date": "2026-03-13",
-          "category": "social"
-        },
-        {
-          "title": "Parrucchiere",
-          "date": "2026-03-16",
-          "category": "personal"
-        },
-        {
-          "title": "Psicoterapeuta (pagamento ogni volta)",
-          "date": "2026-03-16",
-          "category": "health"
-        },
-        {
-          "title": "Commissioni personali",
-          "date": "2026-03-18",
-          "category": "personal"
-        },
-        {
-          "title": "Pressoterapia (pagamento ogni volta)",
-          "date": "2026-03-20",
-          "category": "personal"
-        },
-        {
-          "title": "Pagamento abbonamento palestra (trimestrale)",
-          "date": "2026-03-23",
-          "category": "payment"
-        },
-        {
-          "title": "Quality time (serata libera)",
-          "date": "2026-03-27",
-          "category": "personal"
-        }
+        { "title": "Deadline consegna slide progetto", "date": "2026-03-04", "category": "work" },
+        { "title": "Evento di lavoro (workshop in presenza)", "date": "2026-03-06", "category": "work" },
+        { "title": "Psicoterapeuta (pagamento ogni volta)", "date": "2026-03-09", "category": "health" },
+        { "title": "Allenamento PT", "date": "2026-03-10", "category": "personal" },
+        { "title": "Aperitivo con amici", "date": "2026-03-13", "category": "social" },
+        { "title": "Parrucchiere", "date": "2026-03-16", "category": "personal" },
+        { "title": "Psicoterapeuta (pagamento ogni volta)", "date": "2026-03-16", "category": "health" },
+        { "title": "Commissioni personali", "date": "2026-03-18", "category": "personal" },
+        { "title": "Pressoterapia", "date": "2026-03-20", "category": "personal" },
+        { "title": "Pagamento abbonamento palestra (trimestrale)", "date": "2026-03-23", "category": "payment" },
+        { "title": "Serata libera / qualità", "date": "2026-03-27", "category": "personal" }
       ],
       "reminders": [
-        {
-          "title": "Annaffiare piante",
-          "recurrence": "weekly"
-        },
-        {
-          "title": "Cambiare sacchetto dell’aspirapolvere",
-          "recurrence": "monthly"
-        },
-        {
-          "title": "Cambio filtro dell’acqua",
-          "recurrence": "quarterly"
-        },
-        {
-          "title": "Cambio filtri al condizionatore",
-          "recurrence": "biannual"
-        }
+        { "title": "Annaffiare piante", "recurrence": "weekly" },
+        { "title": "Cambiare sacchetto aspirapolvere", "recurrence": "monthly" },
+        { "title": "Cambio filtro acqua", "recurrence": "quarterly" },
+        { "title": "Cambio filtri condizionatore", "recurrence": "biannual" }
       ]
     },
     {
       "month": "2026-04",
       "events": [
-        {
-          "title": "Deadline invio documento finale",
-          "date": "2026-04-02",
-          "category": "work"
-        },
-        {
-          "title": "Evento di lavoro (networking/meetup)",
-          "date": "2026-04-03",
-          "category": "work"
-        },
-        {
-          "title": "Visita specialistica",
-          "date": "2026-04-07",
-          "category": "health"
-        },
-        {
-          "title": "Psicoterapeuta (pagamento ogni volta)",
-          "date": "2026-04-07",
-          "category": "health"
-        },
-        {
-          "title": "Pagamento assicurazione auto (semestrale)",
-          "date": "2026-04-09",
-          "category": "payment"
-        },
-        {
-          "title": "Aperitivo con amici",
-          "date": "2026-04-10",
-          "category": "social"
-        },
-        {
-          "title": "Allenamento PT",
-          "date": "2026-04-14",
-          "category": "personal"
-        },
-        {
-          "title": "Pressoterapia (pagamento ogni volta)",
-          "date": "2026-04-15",
-          "category": "personal"
-        },
-        {
-          "title": "Psicoterapeuta (pagamento ogni volta)",
-          "date": "2026-04-21",
-          "category": "health"
-        },
-        {
-          "title": "Pagamento tasse (semestrale)",
-          "date": "2026-04-22",
-          "category": "payment"
-        },
-        {
-          "title": "Pagamento condominio (semestrale)",
-          "date": "2026-04-27",
-          "category": "payment"
-        }
+        { "title": "Deadline invio documento finale", "date": "2026-04-02", "category": "work" },
+        { "title": "Evento di lavoro (networking)", "date": "2026-04-03", "category": "work" },
+        { "title": "Visita specialistica", "date": "2026-04-07", "category": "health" },
+        { "title": "Psicoterapeuta (pagamento ogni volta)", "date": "2026-04-07", "category": "health" },
+        { "title": "Pagamento assicurazione auto (semestrale)", "date": "2026-04-09", "category": "payment" },
+        { "title": "Aperitivo con amici", "date": "2026-04-10", "category": "social" },
+        { "title": "Allenamento PT", "date": "2026-04-14", "category": "personal" },
+        { "title": "Pressoterapia", "date": "2026-04-15", "category": "personal" },
+        { "title": "Psicoterapeuta (pagamento ogni volta)", "date": "2026-04-21", "category": "health" },
+        { "title": "Pagamento tasse (semestrale)", "date": "2026-04-22", "category": "payment" },
+        { "title": "Pagamento condominio (semestrale)", "date": "2026-04-27", "category": "payment" }
       ],
       "reminders": [
-        {
-          "title": "Annaffiare piante",
-          "recurrence": "weekly"
-        },
-        {
-          "title": "Check gomme per inversione",
-          "recurrence": "annual"
-        },
-        {
-          "title": "Revisione caldaia",
-          "recurrence": "annual"
-        },
-        {
-          "title": "Cambio filtri al condizionatore",
-          "recurrence": "biannual"
-        },
-        {
-          "title": "Cambiare sacchetto dell’aspirapolvere",
-          "recurrence": "monthly"
-        },
-        {
-          "title": "Cambio filtro dell’acqua",
-          "recurrence": "quarterly"
-        }
+        { "title": "Annaffiare piante", "recurrence": "weekly" },
+        { "title": "Check gomme", "recurrence": "annual" },
+        { "title": "Revisione caldaia", "recurrence": "annual" },
+        { "title": "Cambio filtri condizionatore", "recurrence": "biannual" },
+        { "title": "Cambiare sacchetto aspirapolvere", "recurrence": "monthly" },
+        { "title": "Cambio filtro acqua", "recurrence": "quarterly" }
       ]
     }
   ]
 }
-``
