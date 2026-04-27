@@ -186,7 +186,6 @@ with tab_add:
             '  "alternatives": [...]\n'
             '}'
         )
-    )
 
     if warn_json.strip():
         st.success("Valutazione acquisita ✅")
