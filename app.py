@@ -33,13 +33,15 @@ use_local = st.sidebar.checkbox(
 
 data = None
 
+
 if uploaded is not None:
     try:
-        
-content = uploaded.getvalue().decode("utf-8-sig")
-data = json.loads(content)
-``
+        content = uploaded.getvalue().decode("utf-8-sig")
+        data = json.loads(content)
         st.sidebar.success("Dataset caricato ✅")
+    except Exception:
+        st.sidebar.error("JSON non valido. Carica un file data.json corretto.")
+``
     except Exception:
         st.sidebar.error("JSON non valido. Carica un file data.json corretto.")
 elif use_local:
