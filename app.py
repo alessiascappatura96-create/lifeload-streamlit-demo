@@ -166,27 +166,29 @@ with tab_add:
 
     st.caption(
         "DEMO MODE:\n"
-        "Incolla l’output **JSON del Prompt C**.\n\n"
-        "L’assistente **non blocca**, ma segnala se il carico settimanale è alto."
+        "Incolla l'output **JSON del Prompt C**.\n\n"
+        "L'assistente **non blocca**, ma segnala se il carico settimanale è alto."
     )
 
     st.button(
         "Valuta impatto (demo mode)",
-        help="In demo mode l’output viene incollato manualmente."
+        help="In demo mode l'output viene incollato manualmente."
     )
 
     warn_json = st.text_area(
         "Output Prompt C (JSON)",
         height=220,
         placeholder=(
-            '{\n'
+            "{\n"
             '  "status": "warning_soft",\n'
             '  "message_to_user": "...",\n'
             '  "reasons": ["..."],\n'
             '  "alternatives": [...]\n'
-            '}'
+            "}"
         )
+    )
 
     if warn_json.strip():
         st.success("Valutazione acquisita ✅")
         st.code(warn_json, language="json")
+``
