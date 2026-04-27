@@ -41,9 +41,7 @@ if uploaded is not None:
         st.sidebar.success("Dataset caricato ✅")
     except Exception:
         st.sidebar.error("JSON non valido. Carica un file data.json corretto.")
-``
-    except Exception:
-        st.sidebar.error("JSON non valido. Carica un file data.json corretto.")
+
 elif use_local:
     try:
         with open("data.json", "r", encoding="utf-8") as f:
